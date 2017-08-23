@@ -76,11 +76,13 @@ archive_generator:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:caidernan/caidernan.github.io.git
-  branch: master
-  username: caidernan
-  email: dernan@stu.scau.edu.cn
-  plugins: -hexo-generator-cname
+  repo:
+     github: git@github.com:caidernan/caidernan.github.io.git,master
+     oschina:  https://git.oschina.net/dernan/dernan.git,master
+  # branch: master
+  # username: caidernan
+  # email: dernan@stu.scau.edu.cn
+  # plugins: -hexo-generator-cname
 
 feed:
   type: rss2
